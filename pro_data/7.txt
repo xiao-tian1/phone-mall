@@ -1,0 +1,17 @@
+//openfile.meizu.com/group1/M00/04/17/Cgbj0VrcX6yABHxPAARZwWUAjc4748.png@480x480.jpg,魅族 HALO 激光蓝牙耳机,499
+//openfile.meizu.com/group1/M00/05/11/Cgbj0Fsp-8yATCDFAASWKnb1fdQ339.png@480x480.jpg,POP 真无线蓝牙耳机,399
+//openfile.meizu.com/group1/M00/01/D2/Cgbj0Fmb55mABV4HAAKspJD9ivQ842.png@480x480.jpg,魅蓝 EP52 蓝牙耳机,229
+//openfile.meizu.com/group1/M00/06/97/Cgbj0Fui_-SAO6IgAARPVTFhby0701.png@480x480.jpg,魅族 EP52 Lite 蓝牙耳机,129
+//openfile.meizu.com/group1/M00/00/A2/Cix_s1gcTHCANftiAAErzSizI8c299.png@480x480.jpg,魅族 EP2X 耳机,69
+//storeimg.meizu.com/product/1459849377-64075.png@480x480.jpg,魅族 EP51 蓝牙运动耳机,129
+//openfile.meizu.com/group1/M00/06/70/Cgbj0FuZwuGADzVHAAG7wQGHkAM447.png@480x480.jpg,魅族蓝牙音频接收器,89
+//openfile.meizu.com/group1/M00/05/EA/Cgbj0FttMKWAPWDyAAFoG4YEzpI936.png@480x480.jpg,魅族 Gravity 悬浮音响,1099
+//openfile.meizu.com/group1/M00/07/0A/Cgbj0FytuH-AQ6JTAAEB9AmJ6Z0660.png@480x480.jpg,魅族 HIFI 解码耳放,9999
+//openfile.meizu.com/group1/M00/03/C9/Cgbj0VrBl16Af2alAAWkq7hK2yI025.png@480x480.jpg,魅族 MC-5N 耳机升级线,399
+//openfile.meizu.com/group1/M00/02/EE/Cgbj0FpeqUqAYAbBAAJRQlEIMmc702.png@480x480.jpg,魅族 Flow Bass 三单元耳机,379
+//openfile.meizu.com/group1/M00/02/EF/Cgbj0FpeqaKAYLSmAATXqR4BPH8829.png@480x480.jpg,魅族 LIVE 四单元动铁耳机,1099
+//openfile.meizu.com/group1/M00/01/AE/Cgbj0Fl22W2AJpEcAAG7IoqPYcI904.png@480x480.jpg,魅族 Flow 三单元耳机,379
+//storeimg.meizu.com/product/1449643421-24522.png@480x480.jpg,魅族 EP21耳机,69
+//openfile.meizu.com/group1/M00/01/D5/Cgbj0VmRZCiAKwA3AADYrtiPJlQ156.png@480x480.jpg,ME20入耳式耳机,99
+//openfile.meizu.com/group1/M00/01/1D/Cix_s1ij7KeAdy0cAAbboUvsAC4250.png@480x480.jpg,魅族蓝牙小音箱,169
+//openfile.meizu.com/group1/M00/06/20/Cgbj0Ft-WkOAAhCKAAFqcNe6c3M482.png@480x480.jpg,魅族 EP-31 耳机,99

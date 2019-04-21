@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录页</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="../js/jquery-1.10.1.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/login.js"></script>
+
+</head>
+
+<body>
+    <!--页面头部开始-->
+    <div id="header">
+        <div class="container">
+            <!--头部顶导航部分开始-->
+            <div class="head-store">
+                <div class="store-left"></div>
+                <div class="store-content">
+                    <p class="login-box">
+                        <span id="logoName">欢迎加入开心人！
+                            <a href="" class="gb-dengl">请登录</a>
+                            <a href="" class="gb-zcsjf">免费注册</a>
+                        </span>
+                    </p>
+                    <ul id="top-nav">
+                        <li><a href="">我的开心人</a></li>
+                        <li><a href="">代购预订</a></li>
+                        <li><a href="">信誉资质</a></li>
+                        <li><a href="">服务中心</a></li>
+                        <li><a href="">网站导航</a></li>
+                        <li class="inmob_topico">
+                            <span class="mob_topico"><i></i>手机商城</span>
+                            <div>
+                                <p>
+                                    <strong>手机下单更方便</strong>
+                                    <strong style="font-size: 12px;">全场
+                                        <span style="font-size:20px;">66</span>包邮
+                                    </strong>
+                                </p>
+                                <p class="mobtopico"></p>
+                                <p>m.360kxr.com</p>
+                                <p class="gray">24小时服务</p><em></em>
+                            </div>
+                        </li>
+                    </ul>
+                    <p class="consult-ico" id="consult-ico">
+                        <a class="kefu-ico" href="javascript:"></a>
+                    </p>
+                </div>
+                <div class="store-right"></div>
+            </div>
+            <!--头部顶导航部分结束-->
+        </div>
+        <!--logo部分开始-->
+        <div class="logo-box">
+            <div class="logo-box-cont">
+                <a href="">
+                    <h1 style="width:257px;"></h1>
+                </a>
+                <div class="search-container" style="margin-left:141px;">
+                    <div class="search-box" id="search">
+                        <input id="keyWord" value="请输入汇仁肾宝片或hrsbp" style="color: rgb(153, 153, 153);">
+                        <span class="ss-btn" id="searchbutton"></span>
+                        <div class="autocomplete" style="display: none;"></div>
+                        <p class="hot-search">
+                            <span class="hot-search">热门搜索：
+                                <span>
+                                    <a href="" title="麦卢卡蜂蜜">麦卢卡蜂蜜</a>
+                                </span>
+                                <span>
+                                    <a href="" title="万艾可">万艾可</a>
+                                </span>
+                                <span>
+                                    <a href="" title="金戈">金戈</a>
+                                </span>
+                                <span>
+                                    <a href="" title="希爱力">希爱力</a>
+                                </span>
+                                <span>
+                                    <a href="" title="润众">润众</a>
+                                </span>
+                                <span>
+                                    <a href="" title="爱卫">爱卫</a>
+                                </span>
+                                <span>
+                                    <a href="" title="片仔癀">片仔癀</a>
+                                </span>
+                                <span>
+                                    <a href="" title="安宫牛黄丸">安宫牛黄丸</a>
+                                </span>
+                                <span>
+                                    <a href="" title="保法止">保法止</a>
+                                </span>
+                                <span>
+                                    <a href="" title="六味">六味</a>
+                                </span>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <p class="tele-img"></p>
+            </div>
+        </div>
+        <!-- logo部分结束-->
+        <!--主导航开始-->
+        <div class="main-nav">
+            <div class="nav-box">
+                <!--商品分类开始-->
+                <div class="categories-box">
+                    <h2><b class=""></b><a target="_blank">全部商品分类</a></h2>
+                    <div class="categories-content" id="categories-content">
+                        <div class="item-box" id="item1">
+                            <div class="title">
+                                <h3> <b></b><a href="">药品</a> </h3> <s></s>
+                                <span>
+                                    <a href="">生殖健康</a>
+                                    <a href="">心脑血管</a>
+                                </span>
+                            </div>
+                            <div class="fast-show">
+                                <ul class="zz-name">
+                                    <li>
+                                        <a class="first" title="感冒发热" href="">感冒发热</a>
+                                        <a title="呼吸系统" href="">呼吸系统</a>
+                                        <a title="抗菌消炎" href="">抗菌消炎</a>
+                                        <a title="清热消炎" href="">清热消炎</a>
+                                    </li>
+                                    <li>
+                                        <a class="first" title="肌肤健康" href="">肌肤健康</a>
+                                        <a title="滋补用药" href="">滋补用药</a>
+                                        <a title="头发健康" href="" t>头发健康</a>
+                                        <a title="消化系统" href="">消化系统</a>
+                                    </li>
+                                    <li>
+                                        <a class="first" title="筋骨疼痛" href="">筋骨疼痛</a>
+                                        <a title="维矿物质" href="">维矿物质</a>
+                                        <a title="儿童用药" href="">儿童用药</a>
+                                        <a title="妇科用药" href="">妇科用药</a>
+                                    </li>
+                                    <li>
+                                        <a class="first" title="生殖健康" href="">生殖健康</a>
+                                        <a title="性病" href="">性病</a>
+                                        <a title="泌尿系统" href="">泌尿系统</a>
+                                        <a title="肾病" href="">肾病</a>
+                                    </li>
+                                    <li> <a class="first" title="糖尿病" href="">糖尿病</a>
+                                        <a title="心脑血管" href="">心脑血管</a>
+                                        <a title="肝病用药" href="">肝病用药</a>
+                                        <a title="胆病用药" href="">胆病用药</a>
+                                    </li>
+                                    <li> <a class="first" title="肿瘤药品" href="">肿瘤药品</a>
+                                        <a title="精神用药" href="">精神用药</a>
+                                        <a title="神经系统" href="">神经系统</a>
+                                        <a title="血液系统" href="">血液系统</a>
+                                    </li>
+                                    <li class="last">
+                                        <a class="first" title="耳鼻用药" href="">耳鼻用药</a>
+                                        <a title="眼科" href="">眼科</a>
+                                        <a title="口腔用药" href="" t>口腔用药</a>
+                                        <a href="">更多...</a>
+                                    </li>
+                                </ul>
+                                <div class="tj-brand-box" id="divTj-brand-box1">
+                                    <h4>推荐品牌</h4> NoImg
+                                </div>
+                            </div>
+                        </div>
+                        <div id="item2" class="item-box item-box1 ">
+                            <div class="title">
+                                <h3> <b></b><a href="">健康养生</a> </h3>
+                                <s></s>
+                                <span><a href="">改善睡眠</a>
+                                    <a href="">免疫调节</a>
+                                </span>
+                            </div>
+                            <div class="fast-show">
+                                <ul class="zz-name">
+                                    <li>
+                                        <a class="first" title="减肥瘦身" href="">减肥瘦身</a>
+                                        <a title="改善贫血" href="">改善贫血</a>
+                                        <a title="调节血糖" href="">调节血糖</a>
+                                        <a title="耐缺氧" href="">耐缺氧</a>
+                                    </li>
+                                    <li>
+                                        <a class="first" title="骨质疏松" href="">骨质疏松</a>
+                                        <a title="改善胃肠" href="">改善胃肠</a>
+                                        <a title="抗突变" href="">抗突变</a>
+                                        <a title="调节血脂" href="">调节血脂</a>
+                                    </li>
+                                    <li>
+                                        <a class="first" title="改善记忆" href="">改善记忆</a>
+                                        <a title="辅助降压" href="">辅助降压</a>
+                                        <a title="缓解视疲劳" href="">缓解视疲劳</a>
+                                        <a title="营养素" href="">营养素</a>
+                                    </li>
+                                    <li>
+                                        <a class="first" title="促进排铅" href="">促进排铅</a>
+                                        <a title="延缓衰老" href="">延缓衰老</a>
+                                        <a title="免疫调节" href="">免疫调节</a>
+                                        <a title="缓解疲劳" href="">缓解疲劳</a>
+                                    </li>
+                                    <li>
+                                        <a class="first" title="改善睡眠" href="">改善睡眠</a>
+                                        <a title="清咽润喉" href="">清咽润喉</a>
+                                        <a title="保肝护肝" href="">保肝护肝</a>
+                                        <a title="生长发育" href="">生长发育</a>
+                                    </li>
+                                    <li>
+                                        <a class="first" title="孕产妇用" href="">孕产妇用</a>
+                                        <a title="辅助保护" href="">辅助保护</a>
+                                        <a title="调节血脂" href="">普通食品</a>
+                                        <a title="药食同源" href="">药食同源</a>
+                                    </li>
+                                    <li class="last">
+                                        <a class="first" title="美容养颜" href="">美容养颜</a>
+                                    </li>
+                                </ul>
+                                <div class="tj-brand-box" id="divTj-brand-box2">
+                                    <h4> 推荐品牌</h4> NoImg
+                                </div>
+                            </div>
+                        </div>
+                        <div id="item3" class="item-box">
+                            <div class="title">
+                                <h3> <b></b><a href="">两性健康</a> </h3> <s></s>
+                                <span>
+                                    <a href="">女性专区</a>
+                                    <a href="">情趣用品</a>
+                                </span>
+                            </div>
+                            <div class="fast-show">
+                                <ul class="zz-name">
+                                    <li>
+                                        <a title="避孕用品" class="first" href="">避孕用品</a>
+                                        <a title="安全套" href="">安全套</a>
+                                        <a title="口服避孕药" href="">口服避孕药</a>
+                                        <a title="男性专区" href="">男性专区</a>
+                                    </li>
+                                    <li>
+                                        <a class="first" title="润滑剂" href="">润滑剂</a>
+                                        <a title="检测试纸" href="">检测试纸</a>
+                                    </li>
+                                </ul>
+                                <div class="tj-brand-box" id="divTj-brand-box3">
+                                    <h4>推荐品牌</h4> NoImg
+                                </div>
+                            </div>
+                        </div>
+                        <div id="item4" class="item-box item-box1">
+                            <div class="title">
+                                <h3> <b></b><a href="">医疗器械</a> </h3>
+                                <s></s>
+                                <span>
+                                    <a href="">血压设备</a>
+                                    <a href="">血糖设备</a>
+                                </span>
+                            </div>
+                            <div class="fast-show">
+                                <ul class="zz-name">
+                                    <li>
+                                        <a class="first" title="家庭常备" href="">家庭常备</a>
+                                        <a title="居家生活" href="" t>居家生活</a>
+                                        <a title="服饰系列" href="">服饰系列</a>
+                                        <a title="护理用品" href="">护理用品</a>
+                                    </li>
+                                    <li>
+                                        <a class="first" title="护具系列" href="">护具系列</a>
+                                        <a title="按摩器" href="">按摩器</a>
+                                        <a title="敷料器具" href="">敷料器具</a>
+                                        <a title="血糖设备" href="">血糖设备</a>
+                                    </li>
+                                    <li>
+                                        <a class="first" title="血压设备" href="">血压设备</a>
+                                        <a title="检测仪器" href="">检测仪器</a>
+                                        <a title="康复系列" href="">康复系列</a>
+                                        <a title="制氧设备" href="">制氧设备</a>
+                                    </li>
+                                    <li>
+                                        <a class="first" title="助行设备" href="">助行设备</a>
+                                        <a title="其他系列" href="">其他系列</a>
+                                    </li>
+                                </ul>
+                                <div class="tj-brand-box" id="divTj-brand-box4">
+                                    <h4>推荐品牌</h4> NoImg
+                                </div>
+                            </div>
+                        </div>
+                        <div id="item5" class="item-box">
+                            <div class="title">
+                                <h3> <b></b><a href="">精品贵细</a> </h3>
+                                <s></s>
+                                <span>
+                                    <a href="">洋参系列</a>
+                                    <a href="">鹿茸系列</a>
+                                </span>
+                            </div>
+                            <div class="fast-show">
+                                <ul class="zz-name">
+                                    <li>
+                                        <a class="first" title="洋参类" href="">洋参类</a>
+                                        <a title="冬虫夏草" href="">冬虫夏草</a>
+                                        <a title="蜂制品" href="">蜂制品</a>
+                                        <a title="灵芝" href="">灵芝</a>
+                                    </li>
+                                    <li>
+                                        <a class="first" title="鹿茸" href="">鹿茸</a>
+                                        <a title="雪蛤" href="">雪蛤</a>
+                                        <a title="燕窝" href="">燕窝</a>
+                                        <a title="洋参礼盒" href="" t>洋参礼盒</a>
+                                    </li>
+                                    <li> <a class="first" title="虫草礼盒" href="">虫草礼盒</a>
+                                        <a title="海参礼盒" href="">海参礼盒</a>
+                                        <a title="燕窝礼盒" href="">燕窝礼盒</a>
+                                        <a title="组合药膳" href="">组合药膳</a>
+                                    </li>
+                                    <li>
+                                        <a class="first" title="其他礼盒" href="">其他礼盒</a>
+                                    </li>
+                                </ul>
+                                <div class="tj-brand-box">
+                                    <h4>推荐品牌</h4>
+                                    <ul>
+                                        <li>
+                                            <a title="许氏" class="first" href="">
+                                                <img alt="许氏" src="../img/xushi.jpg">
+                                            </a>
+                                            <a title="同仁堂" href="">
+                                                <img alt="同仁堂" src="../img/tongrentang.jpg">
+                                            </a>
+                                            <a title="龙宝" href="">
+                                                <img alt="龙宝" src="../img/longbao.jpg">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="item6" class="item-box item-box1">
+                            <div class="title">
+                                <h3> <b></b> <a href="">美妆护理</a> </h3>
+                                <s></s>
+                                <span>
+                                    <a href="">头发护理</a>
+                                    <a href="">母婴用品</a>
+                                </span>
+                            </div>
+                            <div class="fast-show">
+                                <ul class="zz-name">
+                                    <li>
+                                        <a class="first" title="身体护理" href="">身体护理</a>
+                                        <a title="头发护理" href="">头发护理</a>
+                                        <a title="面部护理" href="">面部护理</a>
+                                        <a title="口腔护理" href="">口腔护理</a>
+                                    </li>
+                                    <li>
+                                        <a class="first" title="清洁洗液" href="">清洁洗液</a>
+                                        <a title="防冻防裂" href="">防冻防裂</a>
+                                        <a title="母婴系列" href="">母婴系列</a>
+                                        <a title="男士专区" href="">男士专区</a>
+                                    </li>
+                                    <li>
+                                        <a class="first" title="日用百货" href="">日用百货</a>
+                                    </li>
+                                </ul>
+                                <div class="tj-brand-box">
+                                    <h4>推荐品牌</h4>
+                                    <ul>
+                                        <li>
+                                            <a title="军医生" class="first" href="">
+                                                <img alt="军医生" src="../img/junyisheng.jpg">
+                                            </a>
+                                            <a title="奇力康" href="">
+                                                <img alt="奇力康" src="../img/qilikang.jpg"></a>
+                                            <a title="道源堂" href="">
+                                                <img alt="道源堂" src="../img/daoyuantang.jpg">
+                                            </a>
+                                            <a title="瑞虎" href="">
+                                                <img alt="瑞虎" src="../img/ruihu.jpg">
+                                            </a>
+                                        </li>
+                                        <li> <a title="妇炎洁" class="first" href=""><img alt="妇炎洁"
+                                                    src="../img/fuyanjie.jpg"></a>
+                                            <a title="恩威" href=""><img alt="恩威" src="../img/enwei.jpg"></a>
+                                            <a title="倍舒特" href=""><img alt="倍舒特" src="../img/beishute.jpg"></a>
+                                            <a title="诗洁" href=""><img alt="诗洁" src="../img/shijie.jpg"></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="item7" class="item-box last-item">
+                            <div class="title">
+                                <h3> <b></b><a href="#">常用分类</a> </h3> <s></s>
+                                <span>
+                                    <a href="">性功能障碍</a>
+                                    <a href="">乙肝用药</a>
+                                </span>
+                            </div>
+                            <div class="fast-show">
+                                <ul class="zz-name">
+                                    <li>
+                                        <a class="first" href="">性福生活</a>
+                                        <a href="">性功能障碍</a>
+                                        <a href="">乙肝病</a>
+                                        <a href="">银屑病</a>
+                                    </li>
+                                    <li>
+                                        <a class="first" href="">减肥瘦身</a>
+                                        <a href="">抑郁症</a>
+                                        <a href="">哮喘病</a>
+                                        <a href="">高血压</a>
+                                    </li>
+                                    <li>
+                                        <a class="first" href="">风湿病</a>
+                                        <a href="">养血生发</a>
+                                        <a href="">补肾类</a>
+                                        <a href="">综合滋补</a>
+                                    </li>
+                                </ul>
+                                <div class="tj-brand-box">
+                                    <h4>推荐品牌</h4>
+                                    <ul>
+                                        <li>
+                                            <a title="同仁堂" class="first" href="">
+                                                <img alt="同仁堂" src="../img/tongrenteng.jpg">
+                                            </a>
+                                            <a title="九芝堂" href="">
+                                                <img alt="九芝堂 " src="../img/jiuzhitang.jpg">
+                                            </a>
+                                            <a title="诺华" href="">
+                                                <img alt="诺华" src="../img/daoyuantang.jpg">
+                                            </a>
+                                            <a title="葛兰素史克 " href="">
+                                                <img alt="葛兰素史克" src="../img/gelansushike.jpg">
+                                            </a>
+                                        </li>
+                                        <li> <a title="辉瑞" class="first" href="">
+                                                <img alt="辉瑞" src="../img/huirui.jpg">
+                                            </a>
+                                            <a title="拜耳" href="">
+                                                <img alt="拜耳" src="../img/baier.jpg">
+                                            </a>
+                                            <a title="修正" href="">
+                                                <img alt="修正" src="../img/xiuzheng.jpg">
+                                            </a>
+                                            <a title="太极" href="">
+                                                <img alt="太极" src="../img/taiji.jpg">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--商品分类结束-->
+                <ul class="nav-list">
+                    <li><a href="" style="background: #a62326">首&nbsp;&nbsp;页</a></li>
+                    <li><a href="" target="_blank">药&nbsp;&nbsp;品</a></li>
+                    <li><a href="" target="_blank">男性健康</a></li>
+                    <li><a href="" target="_blank">母婴专区</a></li>
+                    <li><a href="" style="color: #fef597">防暑降温</a></li>
+                    <li><a href="">健康养生</a></li>
+                    <li><a href="">同仁堂专场</a></li>
+                </ul>
+                <div class="cart-tishi">
+                    <div id="cartShop">
+                        <div class="gwc-box">
+                            <a id="gwcid" class="gwcid" href="">我的购物车(<span class="number" id="countid">0</span>)</a>
+                        </div>
+                        <div class="go-to-cart">
+                            <a href="" id="payid">去结算</a>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--页面头部结束-->
+    <!--页面主体部分开始-->
+    <div class="zt_mainBox">
+        <div class="mainBoxfoot">
+            <!-- 通栏 -->
+            <div class="mainBox marginBottom marginTop">
+                <div class="headAds">
+                    <a href="" title="汇仁肾宝片">
+                        <img alt="汇仁肾宝片" src="../img/banner.jpg"></a>
+                </div>
+            </div>
+            <div class="gb-login-container ">
+                <!--登录开心人开始-->
+                <form id="LoginForm" action="">
+                    <input name="returnUrlL" id="returnUrlL" type="hidden" value="">
+                    <div class="gb-bg-common gb-login-box">
+                        <div class="gb-login-top-bg"></div>
+                        <div class="gb-login-cont">
+                            <div class="gb-login-cont-left">
+                                <h3>登录开心人</h3>
+                                <p>
+                                    <label>用户名：</label>
+                                    <input id="LoginUserName" name="LoginUserName" placeholder="请输入用户名或者邮箱地址">
+                                    <span class="titles" style="margin:5px"></span>
+                                </p>
+                                <p>
+                                    <label>密　码：</label>
+                                    <input id="LoginPassWord" name="LoginPassWord" type="password">
+                                    <span class="titles2" style="margin:5px"></span>
+                                </p>
+
+                                <p>
+                                    <input style="width: 12px; margin-left: 63px;" type="checkbox" name="autoLogin"
+                                        value="true">
+                                    <span>下次自动登录</span>
+                                </p>
+                                <p>
+                                    <input type="button" class="login-tj" width="75" height="30" value="">
+                                    <a href="">找回密码</a>
+                                </p>
+                            </div>
+                            <div class="gb-login-joinbox">
+                                <p>您还未加入开心人？</p>
+                                <p>
+                                    <a href="reg.html">
+                                        <img src="../img/gb-login-join.jpg" class="register-joinin"></a>
+                                </p>
+                                <p>也可使用合作网站账号登陆</p>
+                                <p class="gb-login-btn">
+                                    <a title="支付宝登录" href="">
+
+                                        <img src="../img/gb-login-bb.jpg">
+                                    </a>
+                                    <a title="新浪微博登陆" href="">
+                                        <img src="../img/gb-login-weibo.jpg">
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="clear">
+                            </div>
+                        </div>
+                        <div class="gb-login-bottom-bg">
+                        </div>
+                    </div>
+                    <!--登录开心人结束-->
+                </form>
+                <!--加入开心人结束-->
+            </div>
+        </div>
+    </div>
+    <!--页面主体部分结束-->
+    <!--页面底部开始-->
+    <div class="footer-box">
+        <div class="footer-nav">
+            <div class="contact-cont">
+                <a title="开心人介绍" href="" looyu_bound="1">开心人介绍</a> |
+                <a title="城市分布" href="">城市分布</a> |
+                <a title="联系我们" href="">联系我们</a> |
+                <a title="加入我们" href="">加入我们</a> |
+                <a title="网站资质" href="">网站资质</a> |
+                <a title="友情链接" href="">友情链接</a> |
+                <a href="">网站地图</a> |
+                <a title="商品地图" href="">商品地图</a> |
+                <a href="#">在线客服</a> | |
+                <a href="" rel="nofollow">免费注册</a> |
+                <a href="" rel="nofollow">企业目录</a>
+                <p>按字母索引商品：
+                    <a href="">A</a>
+                    <a href="">B</a>
+                    <a href="">C</a>
+                    <a href="">D</a>
+                    <a href="">E</a>
+                    <a href="">F</a>
+                    <a href="">G</a>
+                    <a href="">H</a>
+                    <a href="">I</a>
+                    <a href="">J</a>
+                    <a href="">K</a>
+                    <a href="">L</a>
+                    <a href="">M</a>
+                    <a href="">N</a>
+                    <a href="">O</a>
+                    <a href="">P</a>
+                    <a href="">Q</a>
+                    <a href="">R</a>
+                    <a href="">S</a>
+                    <a href="">T</a>
+                    <a href="">U</a>
+                    <a href="">V</a>
+                    <a href="">W</a>
+                    <a href="">X</a>
+                    <a href="">Y</a>
+                    <a href="">Z</a>
+                </p>
+            </div>
+        </div>
+        <!--证书部分开始-->
+        <div class="licence-box" id="licence-box">
+            <p> <a title="互联网药品交易服务资格证书" target="_blank" href="" looyu_bound="1">互联网药品交易服务资格证书</a> <a
+                    title="互联网药品交易服务资格证书" target="_blank" href="">互联网药品信息服务资格证书</a> <a title="增值电信业务经营许可证"
+                    target="_blank" href="" looyu_bound="1">增值电信业务经营许可证</a> <a title="药品经营许可证" target="_blank" href=""
+                    looyu_bound="1">药品经营许可证</a> <a title="医疗器械经营企业许可证" target="_blank" href=""
+                    looyu_bound="1">医疗器械经营企业许可证</a> <a title="互联网药品交易服务资格证书" target="_blank" href=""
+                    looyu_bound="1">食品卫生许可证</a> <a title="公司营业执照" target="_blank" href="" looyu_bound="1">公司营业执照</a> <a
+                    title="GSP认证证书" target="_blank" href="" looyu_bound="1">GSP认证证书</a> </p>
+        </div>
+        <!--证书部分结束-->
+        <!--底部logo开始-->
+        <ul class="bottom-ico" id="bottom-ico">
+            <li> <a href="" target="_blank" title="中国银联-中银E付" looyu_bound="1"> <span class="e-logo-img1"></span> </a>
+            </li>
+            <li> <a href="#" title="经营性网站备案信息" looyu_bound="1"> <span class="e-logo-img2"></span> </a> </li>
+            <li> <a href="" target="_blank" title="网络110报警服务" looyu_bound="1">
+                    <span class="e-logo-img3"></span> </a> </li>
+            <li> <a title="网络110报警服务" target="_blank" href=" " looyu_bound="1">
+                    <span class="e-logo-img4"></span> </a> </li>
+            <li> <a href="" target="_blank" title="健康速递隐私配送" looyu_bound="1">
+                    <span class="e-logo-img5"></span> </a> </li>
+            <li> <a title="健康速递隐私配送" target="_blank" href="" looyu_bound="1">
+                    <span class="e-logo-img6"></span> </a> </li>
+            <li> <a href="" target="_blank" title="诚信品牌100强" looyu_bound="1"> <span class="e-logo-img7"></span> </a>
+            </li>
+            <div class="clear"></div>
+        </ul>
+        <!--底部logo结束-->
+        <div class="copy-box">
+            <p>
+                Copyright@2010-2015 <a href="" target="_blank">开心人网上药店</a>(www.360kxr.com)　赣ICP证B2--20090025-2号<a
+                    target="_blank" href="" style="margin-left:8px;"><img src="" style="vertical-align: middle;"><span
+                        style="color:#939393;">赣公网安备 36011102000116号</span></a>
+            </p>
+        </div>
+    </div>
+    <!--页面底部结束-->
+</body>
+
+</html>

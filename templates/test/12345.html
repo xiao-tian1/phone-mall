@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>hello</title>
+	<script src="js/jquery.js"></script>
+</head>
+<body>
+	用户名：<input type="text" name="" id="username" value="wertyui">
+	<br><br>
+	密码 ：<input type="text" name="" id="password">
+	<br><br>
+	确认 ：<input type="text" name="" id="repassword">
+	<br><br>
+	邮箱 ：<input type="email" name="" id="email" >
+	<br><br>
+	<button id="submit">提交</button>
+	<script type="text/javascript">
+		$(function(){
+			let url = "http://127.0.0.1:8000/app/register/"
+			
+	
+
+			$("#submit").click(function(){
+				let username = $("#username").val();
+				let password = $("#password").val()
+				let repassword = $("#repassword").val()
+				let email = $("#email").val()
+
+				$.post(url,data={"username":username, "password":password, "repassword":repassword, "email":email},function(data){
+					console.log(data)})
+			})
+		})
+	</script>
+</body>
+</html>

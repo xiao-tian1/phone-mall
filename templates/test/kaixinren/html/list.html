@@ -1,0 +1,1551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>列表页</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/list.css">
+    <script src="../js/jquery-1.10.1.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/list.js"></script>
+
+</head>
+
+<body>
+    <!--页面头部开始-->
+    <div id="header">
+        <div class="container">
+            <!--头部顶导航部分开始-->
+            <div class="head-store">
+                <div class="store-left"></div>
+                <div class="store-content">
+                    <p class="login-box">
+                        <span id="logoName">欢迎加入开心人！
+                            <a href="" class="gb-dengl">请登录</a>
+                            <a href="" class="gb-zcsjf">免费注册</a>
+                        </span>
+                    </p>
+                    <ul id="top-nav">
+                        <li><a href="/private.aspx">我的开心人</a></li>
+                        <li><a href="http://www.360kxr.com/Purchase_Requirement.html">代购预订</a></li>
+                        <li><a href="http://www.360kxr.com/aboutus/qualification/105.html">信誉资质</a></li>
+                        <li><a href="/help/index.html">服务中心</a></li>
+                        <li><a href="/product/productmap.html">网站导航</a></li>
+                        <li class="inmob_topico"><span class="mob_topico"><i></i>手机商城</span>
+                            <div>
+                                <p>
+                                    <strong>手机下单更方便</strong>
+                                    <strong style="font-size: 12px;">全场
+                                        <span style="font-size:20px;">66</span>包邮
+                                    </strong>
+                                </p>
+                                <p class="mobtopico"></p>
+                                <p>m.360kxr.com</p>
+                                <p class="gray">24小时服务</p><em></em>
+                            </div>
+                        </li>
+                    </ul>
+                    <p class="consult-ico" id="consult-ico">
+                        <a class="kefu-ico" href="javascript:"></a>
+                    </p>
+                </div>
+                <div class="store-right"></div>
+            </div>
+            <!--头部顶导航部分结束-->
+        </div>
+        <!--logo部分开始-->
+        <div class="logo-box">
+            <div class="logo-box-cont">
+                <a href="">
+                    <h1 style="width:257px;"></h1>
+                </a>
+
+                <div class="search-container" style="margin-left:141px;">
+                    <div class="search-box" id="search">
+                        <input id="keyWord" placeholder="请输入汇仁肾宝片或hrsbp" style="color: rgb(153, 153, 153);">
+                        <span class="ss-btn" id="searchbutton"></span>
+                        <div class="autocomplete" style="display: none;"></div>
+                        <p class="hot-search">
+                            <span class="hot-search">热门搜索：
+                                <span>
+                                    <a href="" target="_blank" title="麦卢卡蜂蜜">麦卢卡蜂蜜</a>
+                                </span>
+                                <span>
+                                    <a href="" target="_blank" title="万艾可">万艾可</a>
+                                </span>
+                                <span>
+                                    <a href="" target="_blank" title="金戈">金戈</a>
+                                </span>
+                                <span>
+                                    <a href="" target="_blank" title="希爱力">希爱力</a>
+                                </span>
+                                <span>
+                                    <a href="" target="_blank" title="润众">润众</a>
+                                </span>
+                                <span>
+                                    <a href="" target="_blank" title="爱卫">爱卫</a>
+                                </span>
+                                <span>
+                                    <a href="" target="_blank" title="片仔癀">片仔癀</a>
+                                </span>
+                                <span>
+                                    <a href="" target="_blank" title="安宫牛黄丸">安宫牛黄丸</a>
+                                </span>
+                                <span>
+                                    <a href="" target="_blank" title="保法止">保法止</a>
+                                </span>
+                                <span>
+                                    <a href="" target="_blank" title="六味">六味</a>
+                                </span>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <p class="tele-img"></p>
+            </div>
+        </div>
+        <!-- logo部分结束-->
+        <!--主导航开始-->
+        <div class="main-nav">
+            <div class="nav-box">
+                <!--商品分类开始-->
+                <!--商品分类开始-->
+                <div class="categories-box">
+                    <h2><b class=""></b><a target="_blank">全部商品分类</a></h2>
+                    <div class="categories-content" id="categories-content">
+                        <div class="item-box" id="item1">
+                            <div class="title">
+                                <h3> <b></b><a href="">药品</a> </h3> <s></s>
+                                <span>
+                                    <a href="">生殖健康</a>
+                                    <a href="" looyu_bound="1">心脑血管</a>
+                                </span>
+                            </div>
+                            <div class="fast-show">
+                                <ul class="zz-name">
+                                    <li>
+                                        <a class="first" title="感冒发热" href="">感冒发热</a>
+                                        <a title="呼吸系统" href="">呼吸系统</a>
+                                        <a title="抗菌消炎" href="">抗菌消炎</a>
+                                        <a title="清热消炎" href="">清热消炎</a>
+                                    </li>
+                                    <li>
+                                        <a class="first" title="肌肤健康" href="">肌肤健康</a>
+                                        <a title="滋补用药" href="">滋补用药</a>
+                                        <a title="头发健康" href="" t>头发健康</a>
+                                        <a title="消化系统" href="">消化系统</a>
+                                    </li>
+                                    <li>
+                                        <a class="first" title="筋骨疼痛" href="">筋骨疼痛</a>
+                                        <a title="维矿物质" href="">维矿物质</a>
+                                        <a title="儿童用药" href="">儿童用药</a>
+                                        <a title="妇科用药" href="">妇科用药</a>
+                                    </li>
+                                    <li>
+                                        <a class="first" title="生殖健康" href="">生殖健康</a>
+                                        <a title="性病" href="">性病</a>
+                                        <a title="泌尿系统" href="">泌尿系统</a>
+                                        <a title="肾病" href="">肾病</a>
+                                    </li>
+                                    <li> <a class="first" title="糖尿病" href="">糖尿病</a>
+                                        <a title="心脑血管" href="">心脑血管</a>
+                                        <a title="肝病用药" href="">肝病用药</a>
+                                        <a title="胆病用药" href="">胆病用药</a>
+                                    </li>
+                                    <li> <a class="first" title="肿瘤药品" href="">肿瘤药品</a>
+                                        <a title="精神用药" href="">精神用药</a>
+                                        <a title="神经系统" href="">神经系统</a>
+                                        <a title="血液系统" href="">血液系统</a>
+                                    </li>
+                                    <li class="last">
+                                        <a class="first" title="耳鼻用药" href="">耳鼻用药</a>
+                                        <a title="眼科" href="">眼科</a>
+                                        <a title="口腔用药" href="" t>口腔用药</a>
+                                        <a href="">更多...</a>
+                                    </li>
+                                </ul>
+                                <div class="tj-brand-box" id="divTj-brand-box1">
+                                    <h4>推荐品牌</h4> NoImg
+                                </div>
+                            </div>
+                        </div>
+                        <div id="item2" class="item-box item-box1 ">
+                            <div class="title">
+                                <h3> <b></b><a href="">健康养生</a> </h3>
+                                <s></s>
+                                <span><a href="">改善睡眠</a>
+                                    <a href="">免疫调节</a>
+                                </span>
+                            </div>
+                            <div class="fast-show">
+                                <ul class="zz-name">
+                                    <li>
+                                        <a class="first" title="减肥瘦身" href="">减肥瘦身</a>
+                                        <a title="改善贫血" href="">改善贫血</a>
+                                        <a title="调节血糖" href="">调节血糖</a>
+                                        <a title="耐缺氧" href="">耐缺氧</a>
+                                    </li>
+                                    <li>
+                                        <a class="first" title="骨质疏松" href="">骨质疏松</a>
+                                        <a title="改善胃肠" href="">改善胃肠</a>
+                                        <a title="抗突变" href="">抗突变</a>
+                                        <a title="调节血脂" href="">调节血脂</a>
+                                    </li>
+                                    <li>
+                                        <a class="first" title="改善记忆" href="">改善记忆</a>
+                                        <a title="辅助降压" href="">辅助降压</a>
+                                        <a title="缓解视疲劳" href="">缓解视疲劳</a>
+                                        <a title="营养素" href="">营养素</a>
+                                    </li>
+                                    <li>
+                                        <a class="first" title="促进排铅" href="">促进排铅</a>
+                                        <a title="延缓衰老" href="">延缓衰老</a>
+                                        <a title="免疫调节" href="">免疫调节</a>
+                                        <a title="缓解疲劳" href="">缓解疲劳</a>
+                                    </li>
+                                    <li>
+                                        <a class="first" title="改善睡眠" href="">改善睡眠</a>
+                                        <a title="清咽润喉" href="">清咽润喉</a>
+                                        <a title="保肝护肝" href="">保肝护肝</a>
+                                        <a title="生长发育" href="">生长发育</a>
+                                    </li>
+                                    <li>
+                                        <a class="first" title="孕产妇用" href="">孕产妇用</a>
+                                        <a title="辅助保护" href="">辅助保护</a>
+                                        <a title="调节血脂" href="">普通食品</a>
+                                        <a title="药食同源" href="">药食同源</a>
+                                    </li>
+                                    <li class="last">
+                                        <a class="first" title="美容养颜" href="">美容养颜</a>
+                                    </li>
+                                </ul>
+                                <div class="tj-brand-box" id="divTj-brand-box2">
+                                    <h4> 推荐品牌</h4> NoImg
+                                </div>
+                            </div>
+                        </div>
+                        <div id="item3" class="item-box">
+                            <div class="title">
+                                <h3> <b></b><a href="">两性健康</a> </h3> <s></s>
+                                <span>
+                                    <a href="">女性专区</a>
+                                    <a href="">情趣用品</a>
+                                </span>
+                            </div>
+                            <div class="fast-show">
+                                <ul class="zz-name">
+                                    <li>
+                                        <a title="避孕用品" class="first" href="">避孕用品</a>
+                                        <a title="安全套" href="">安全套</a>
+                                        <a title="口服避孕药" href="">口服避孕药</a>
+                                        <a title="男性专区" href="">男性专区</a>
+                                    </li>
+                                    <li>
+                                        <a class="first" title="润滑剂" href="">润滑剂</a>
+                                        <a title="检测试纸" href="">检测试纸</a>
+                                    </li>
+                                </ul>
+                                <div class="tj-brand-box" id="divTj-brand-box3">
+                                    <h4>推荐品牌</h4> NoImg
+                                </div>
+                            </div>
+                        </div>
+                        <div id="item4" class="item-box item-box1">
+                            <div class="title">
+                                <h3> <b></b><a href="">医疗器械</a> </h3>
+                                <s></s>
+                                <span>
+                                    <a href="">血压设备</a>
+                                    <a href="">血糖设备</a>
+                                </span>
+                            </div>
+                            <div class="fast-show">
+                                <ul class="zz-name">
+                                    <li>
+                                        <a class="first" title="家庭常备" href="">家庭常备</a>
+                                        <a title="居家生活" href="" t>居家生活</a>
+                                        <a title="服饰系列" href="">服饰系列</a>
+                                        <a title="护理用品" href="">护理用品</a>
+                                    </li>
+                                    <li>
+                                        <a class="first" title="护具系列" href="">护具系列</a>
+                                        <a title="按摩器" href="">按摩器</a>
+                                        <a title="敷料器具" href="">敷料器具</a>
+                                        <a title="血糖设备" href="">血糖设备</a>
+                                    </li>
+                                    <li>
+                                        <a class="first" title="血压设备" href="">血压设备</a>
+                                        <a title="检测仪器" href="">检测仪器</a>
+                                        <a title="康复系列" href="">康复系列</a>
+                                        <a title="制氧设备" href="">制氧设备</a>
+                                    </li>
+                                    <li>
+                                        <a class="first" title="助行设备" href="">助行设备</a>
+                                        <a title="其他系列" href="">其他系列</a>
+                                    </li>
+                                </ul>
+                                <div class="tj-brand-box" id="divTj-brand-box4">
+                                    <h4>推荐品牌</h4> NoImg
+                                </div>
+                            </div>
+                        </div>
+                        <div id="item5" class="item-box">
+                            <div class="title">
+                                <h3> <b></b><a href="">精品贵细</a> </h3>
+                                <s></s>
+                                <span>
+                                    <a href="">洋参系列</a>
+                                    <a href="">鹿茸系列</a>
+                                </span>
+                            </div>
+                            <div class="fast-show">
+                                <ul class="zz-name">
+                                    <li>
+                                        <a class="first" title="洋参类" href="">洋参类</a>
+                                        <a title="冬虫夏草" href="">冬虫夏草</a>
+                                        <a title="蜂制品" href="">蜂制品</a>
+                                        <a title="灵芝" href="">灵芝</a>
+                                    </li>
+                                    <li>
+                                        <a class="first" title="鹿茸" href="">鹿茸</a>
+                                        <a title="雪蛤" href="">雪蛤</a>
+                                        <a title="燕窝" href="">燕窝</a>
+                                        <a title="洋参礼盒" href="" t>洋参礼盒</a>
+                                    </li>
+                                    <li> <a class="first" title="虫草礼盒" href="">虫草礼盒</a>
+                                        <a title="海参礼盒" href="">海参礼盒</a>
+                                        <a title="燕窝礼盒" href="">燕窝礼盒</a>
+                                        <a title="组合药膳" href="">组合药膳</a>
+                                    </li>
+                                    <li>
+                                        <a class="first" title="其他礼盒" href="">其他礼盒</a>
+                                    </li>
+                                </ul>
+                                <div class="tj-brand-box">
+                                    <h4>推荐品牌</h4>
+                                    <ul>
+                                        <li>
+                                            <a title="许氏" class="first" href="">
+                                                <img alt="许氏" src="../img/xushi.jpg">
+                                            </a>
+                                            <a title="同仁堂" href="">
+                                                <img alt="同仁堂" src="../img/tongrentang.jpg">
+                                            </a>
+                                            <a title="龙宝" href="">
+                                                <img alt="龙宝" src="../img/longbao.jpg">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="item6" class="item-box item-box1">
+                            <div class="title">
+                                <h3> <b></b> <a href="">美妆护理</a> </h3>
+                                <s></s>
+                                <span>
+                                    <a href="">头发护理</a>
+                                    <a href="">母婴用品</a>
+                                </span>
+                            </div>
+                            <div class="fast-show">
+                                <ul class="zz-name">
+                                    <li>
+                                        <a class="first" title="身体护理" href="">身体护理</a>
+                                        <a title="头发护理" href="">头发护理</a>
+                                        <a title="面部护理" href="">面部护理</a>
+                                        <a title="口腔护理" href="">口腔护理</a>
+                                    </li>
+                                    <li>
+                                        <a class="first" title="清洁洗液" href="">清洁洗液</a>
+                                        <a title="防冻防裂" href="">防冻防裂</a>
+                                        <a title="母婴系列" href="">母婴系列</a>
+                                        <a title="男士专区" href="">男士专区</a>
+                                    </li>
+                                    <li>
+                                        <a class="first" title="日用百货" href="">日用百货</a>
+                                    </li>
+                                </ul>
+                                <div class="tj-brand-box">
+                                    <h4>推荐品牌</h4>
+                                    <ul>
+                                        <li>
+                                            <a title="军医生" class="first" href="">
+                                                <img alt="军医生" src="../img/junyisheng.jpg">
+                                            </a>
+                                            <a title="奇力康" href="">
+                                                <img alt="奇力康" src="../img/qilikang.jpg"></a>
+                                            <a title="道源堂" href="">
+                                                <img alt="道源堂" src="../img/daoyuantang.jpg">
+                                            </a>
+                                            <a title="瑞虎" href="">
+                                                <img alt="瑞虎" src="../img/ruihu.jpg">
+                                            </a>
+                                        </li>
+                                        <li> <a title="妇炎洁" class="first" href=""><img alt="妇炎洁"
+                                                    src="../img/fuyanjie.jpg"></a>
+                                            <a title="恩威" href=""><img alt="恩威" src="../img/enwei.jpg"></a>
+                                            <a title="倍舒特" href=""><img alt="倍舒特" src="../img/beishute.jpg"></a>
+                                            <a title="诗洁" href=""><img alt="诗洁" src="../img/shijie.jpg"></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="item7" class="item-box last-item">
+                            <div class="title">
+                                <h3> <b></b><a href="#">常用分类</a> </h3> <s></s>
+                                <span>
+                                    <a href="">性功能障碍</a>
+                                    <a href="">乙肝用药</a>
+                                </span>
+                            </div>
+                            <div class="fast-show">
+                                <ul class="zz-name">
+                                    <li>
+                                        <a class="first" href="">性福生活</a>
+                                        <a href="">性功能障碍</a>
+                                        <a href="">乙肝病</a>
+                                        <a href="">银屑病</a>
+                                    </li>
+                                    <li>
+                                        <a class="first" href="">减肥瘦身</a>
+                                        <a href="">抑郁症</a>
+                                        <a href="">哮喘病</a>
+                                        <a href="">高血压</a>
+                                    </li>
+                                    <li>
+                                        <a class="first" href="">风湿病</a>
+                                        <a href="">养血生发</a>
+                                        <a href="">补肾类</a>
+                                        <a href="">综合滋补</a>
+                                    </li>
+                                </ul>
+                                <div class="tj-brand-box">
+                                    <h4>推荐品牌</h4>
+                                    <ul>
+                                        <li>
+                                            <a title="同仁堂" class="first" href="">
+                                                <img alt="同仁堂" src="../img/tongrenteng.jpg">
+                                            </a>
+                                            <a title="九芝堂" href="">
+                                                <img alt="九芝堂 " src="../img/jiuzhitang.jpg">
+                                            </a>
+                                            <a title="诺华" href="">
+                                                <img alt="诺华" src="../img/daoyuantang.jpg">
+                                            </a>
+                                            <a title="葛兰素史克 " href="">
+                                                <img alt="葛兰素史克" src="../img/gelansushike.jpg">
+                                            </a>
+                                        </li>
+                                        <li> <a title="辉瑞" class="first" href="">
+                                                <img alt="辉瑞" src="../img/huirui.jpg">
+                                            </a>
+                                            <a title="拜耳" href="">
+                                                <img alt="拜耳" src="../img/baier.jpg">
+                                            </a>
+                                            <a title="修正" href="">
+                                                <img alt="修正" src="../img/xiuzheng.jpg">
+                                            </a>
+                                            <a title="太极" href="">
+                                                <img alt="太极" src="../img/taiji.jpg">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--商品分类结束-->
+                <!--商品分类结束-->
+
+                <ul class="nav-list">
+                    <li><a href="" style="background: #a62326">首&nbsp;&nbsp;页</a></li>
+                    <li><a href="">药&nbsp;&nbsp;品</a></li>
+                    <li><a href="">男性健康</a></li>
+                    <li><a href="">母婴专区</a></li>
+                    <li><a href="" style="color: #fef597">防暑降温</a></li>
+                    <li><a href="">健康养生</a></li>
+                    <li><a href="">同仁堂专场</a></li>
+                </ul>
+                <div class="cart-tishi">
+                    <div id="cartShop">
+                        <div class="gwc-box">
+                            <a id="gwcid" class="gwcid" href="">我的购物车(<span class="number" id="countid">0</span>)</a>
+                        </div>
+                        <div class="go-to-cart">
+                            <a href="car.html" id="payid">去结算</a>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--页面头部结束-->
+    <!--主体内容开始-->
+    <div class="position-box">
+        <span class="p"> 您现在的位置：</span>
+        <span>
+            <a class="" href="/" rel="NOFOLLOW">首页</a>
+            <span>&gt;</span>
+            <span>
+                <a class="" href="/drugs.html">药品</a>
+            </span>
+            <span>&gt;</span>
+            <span class="redFont">感冒发热</span>
+        </span>
+        <span style="float: right;">药品监管部提示：如发现本网站有任何直接或变相销售处方药行为，请保留证据，拨打12331举报，举报查实给予奖励。</span>
+    </div>
+    <!--二级页面开始-->
+    <div class="main-box second-class-box">
+        <div class="main-content">
+            <!--左侧栏目开始-->
+            <div class="second-left-box">
+                <!--左侧导航开始-->
+                <!--左侧导航开始-->
+                <div class="second-nav-box">
+                    <h3>药品</h3>
+                    <div class="nav-cont">
+                        <div class="active">
+                            <h4>感冒发热</h4>
+                            <ul>
+                                <li><a href="">感冒发烧</a></li>
+                                <li><a href="">流感</a></li>
+                                <li><a href="">风寒感冒</a></li>
+                                <li><a href="">风热感冒</a></li>
+                                <li><a href="">普通感冒</a></li>
+                                <li><a href="">胃肠感冒</a></li>
+                                <div class="clear"></div>
+                            </ul>
+                            <div class="clear"></div>
+                        </div>
+                        <!--商品二级分类页面商品列表开始-->
+                        <ul class="yp-title">
+                            <li><a href="">减肥瘦身</a></li>
+                            <li><a href="">解热镇痛</a></li>
+                            <li><a href="">肌肤健康</a></li>
+                            <li><a href="">妇科用药</a></li>
+                            <li><a href="">呼吸系统</a></li>
+                            <li><a href="">滋补用药</a></li>
+                            <li><a href="">筋骨疼痛</a></li>
+                            <li><a href="">消化系统</a></li>
+                            <li><a href="">儿童用药</a></li>
+                            <li><a href="">神经系统</a></li>
+                            <li><a href="">维矿物质</a></li>
+                            <li><a href="">抗菌消炎</a></li>
+                            <li><a href="">心脑血管</a></li>
+                            <li><a href="">口腔用药</a></li>
+                            <li><a href="">泌尿系统</a></li>
+                            <li><a href="">糖尿病</a></li>
+                            <li><a href="">血液系统</a></li>
+                            <li><a href="">精神用药</a></li>
+                            <li><a href="">特殊病症</a></li>
+                            <li><a href="">清热消炎</a></li>
+                            <li><a href="">生殖健康</a></li>
+                            <li><a href="">性病</a></li>
+                            <li><a href="">肿瘤药品</a></li>
+                            <li><a href="">头发健康</a></li>
+                            <li><a href="">肝病用药</a></li>
+                            <li><a href="">胆病用药</a></li>
+                            <li><a href="">耳鼻用药</a></li>
+                            <li><a href="">眼科</a></li>
+                            <li class="border-none"><a href="">肾病</a></li>
+                            <li class="border-none"><a href="">甲状腺</a></li>
+                            <div class="clear"></div>
+                        </ul>
+                    </div>
+                </div>
+                <!--左侧导航结束-->
+                <!--左侧导航结束-->
+                <!--用户最近浏览开始-->
+                <!--您最近浏览的商品-->
+                <!--您最近浏览的商品-->
+                <!--用户最近浏览开始-->
+                <div class="common-box browse-box">
+                    <h3><span>[<a href="">清空</a>]</span>你最近浏览的商品</h3>
+                    <div class="common-cont">
+                        <ul id="MyViewHistory" class="lastViewCon">
+                            <li class="lastViewLiBorder">
+                                <dl class="first">
+                                    <dt><a href="" target="_blank" title="万艾可 枸橼酸西地那非片 0.1g*1片">万艾可 枸橼酸西地那非片 0.1g..</a>
+                                    </dt>
+                                    <dd>大药房价：<span class="price2"><span class="priceSymbol2">￥</span>115.00</span></dd>
+                                </dl>
+                            </li>
+                            <li class="lastViewLiBorder">
+                                <dl>
+                                    <dt>
+                                        <a href="" target="_blank" title="汇仁  肾宝片 126片">汇仁 肾宝片 126片</a>
+                                    </dt>
+                                    <dd>大药房价：
+                                        <span class="price2">
+                                            <span class="priceSymbol2">￥</span>288.00
+                                        </span>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li class="lastViewLiBorder">
+                                <dl>
+                                    <dt>
+                                        <a href="" target="_blank" title="福牌 阿胶精致铁盒装 250g">福牌 阿胶精致铁盒装 250g</a>
+                                    </dt>
+                                    <dd>大药房价：
+                                        <span class="price2">
+                                            <span class="priceSymbol2">￥</span>550.00
+                                        </span>
+                                    </dd>
+                                </dl>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--用户最近浏览结束-->
+                <!--购买还购买开始-->
+                <!--购买还购买结束-->
+                <!--浏览还浏览开始-->
+                <div class="common-box yh-browse-box">
+                    <h3>新品上市</h3>
+                    <div class="common-cont">
+                        <!--获取默认主图图片-->
+                        <dl>
+                            <dt>
+                                <a href="" title="同仁堂 壮腰健肾丸 5.6g*10丸*6盒">
+                                    <img src="../img/xinpin.jpg">
+                                </a>
+                            </dt>
+                            <dd class="title">
+                                <a href="">同仁堂 壮腰健肾...</a>
+                            </dd>
+                            <dd class="kxj">
+                                <span class="tag">
+                                    开心价：
+                                </span>
+                                <span class="dollor">￥</span>
+                                <span class="price-num">
+                                    <img alt=""
+                                        style="height:24px; display:block; float:left; margin-top:-3px;margin-left:-5px;"
+                                        src="../img/PriceImg-2.png">
+                                </span>
+                            </dd>
+                        </dl>
+                        <!--获取默认主图图片-->
+                        <dl>
+                            <dt>
+                                <a href="" title="思密达 蒙脱石散（桔子味）3g*15袋 ">
+                                    <img src="../img/xinpin2.jpg">
+                                </a>
+                            </dt>
+                            <dd class="title">
+                                <a href="">思密达 蒙脱石散...</a>
+                            </dd>
+                            <dd class="kxj">
+                                <span class="tag">
+                                    开心价：
+                                </span>
+                                <span class="dollor">￥</span>
+                                <span class="price-num">
+                                    <img alt=""
+                                        style="height:24px; display:block; float:left; margin-top:-3px;margin-left:-5px;"
+                                        src="../img/PriceImg-3.png">
+                                </span>
+                            </dd>
+                        </dl>
+                        <!--获取默认主图图片-->
+                        <dl>
+                            <dt><a href="" title="龙牡 龙牡壮骨颗粒(新包装）">
+                                    <img src="../img/xinpin3.jpg">
+                                </a>
+                            </dt>
+                            <dd class="title">
+                                <a href="">龙牡 龙牡壮骨颗...</a>
+                            </dd>
+                            <dd class="kxj"><span class="tag">
+                                    开心价：
+                                </span><span class="dollor">￥</span>
+                                <span class="price-num">
+                                    <img alt=""
+                                        style="height:24px; display:block; float:left; margin-top:-3px;margin-left:-5px;"
+                                        src="../img/PriceImg-4.png">
+                                </span>
+                            </dd>
+                        </dl>
+                        <!--获取默认主图图片-->
+                        <dl>
+                            <dt>
+                                <a href="/product/35977.html" title="优立通 非布司他片40mg*16片">
+                                    <img src="../img/xinpin4.jpg">
+                                </a>
+                            </dt>
+                            <dd class="title">
+                                <a href="">优立通 非布司他...</a>
+                            </dd>
+                            <dd class="kxj">
+                                <span class="tag">
+                                    大药房价：
+                                </span>
+                                <span class="dollor">￥</span>
+                                <span class="price-num">
+                                    <img alt=""
+                                        style="height:24px; display:block; float:left; margin-top:-3px;margin-left:-5px;"
+                                        src="../img/PriceImg-5.png">
+                                </span>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+
+                <!--浏览还浏览结束-->
+            </div>
+            <!-- 左侧栏目结束-->
+            <!--右侧栏目开始-->
+            <div class="second-right-box">
+                <!--轮播开始-->
+                <div class="lunbo-box" id="divAdLunbo">
+                    <div class="b-ad-box"></div>
+                    <div class="lunbo-button"></div>
+                </div>
+                <!--轮播结束-->
+                <!--热门搜索开始-->
+                <div class="hot-hunt">热门搜索：
+                    <a href="">妇科</a>|
+                    <a href="">福牌阿胶</a>|
+                    <a href="">龟鹿二胶丸</a>|
+                    <a href="">神威健阳片</a>
+                </div>
+                <!-- 热门搜索结束-->
+                <!-- 检索开始-->
+                <div class="right-js">
+                    <!--检索框开始-->
+                    <div class="hunt-box">
+                        <dl class="first">
+                            <dt><span>价格区间：</span></dt>
+                            <dd>
+                                <div class="content">
+                                    <a href="" class="all">全部</a>
+                                    <a href="" class="one" id="onef">0-10</a>
+                                    <a href="" class="one">10-20</a>
+                                    <a href="" class="one">20以上</a>
+                                </div>
+                            </dd>
+                            <div class="clear"></div>
+                        </dl>
+                        <div class="clear"></div>
+                        <dl>
+                            <dt><span>药品属性：</span></dt>
+                            <dd>
+                                <div class="content">
+                                    <a href="" class="all">全部</a>
+                                    <a href="" class="one">中成药</a>
+                                    <a href="" class="one">西药</a>
+                                </div>
+                            </dd>
+                            <div class="clear"></div>
+                        </dl>
+                        <div class="clear"></div>
+                        <dl>
+                            <dt><span>药品剂型：</span></dt>
+                            <dd>
+                                <div class="content">
+                                    <a href="" class="all">全部</a>
+                                    <a href="" class="one">颗粒剂</a>
+                                    <a href="" class="one">胶囊剂</a>
+                                    <a href="" class="one">吸入剂</a>
+                                </div>
+                            </dd>
+                            <div class="clear"></div>
+                        </dl>
+                        <div class="clear"></div>
+                        <dl>
+                            <dt><span>品　　牌：</span></dt>
+                            <dd>
+                                <div class="content">
+                                    <p>
+                                        <a class="others-ico">更多</a>
+                                    </p>
+                                    <a href="" class="all">全部</a>
+                                    <a href="" class="one">太极</a>
+                                    <a href="" class="one">三九</a>
+                                    <a href="" class="one">同仁堂</a>
+                                    <a href="" class="one"> 一新</a>
+                                    <a href="" class="one">曼秀雷敦</a>
+                                    <a href="" class="one"> 湖北午时</a>
+                                    <a href="" class="one">南通精华</a>
+                                    <div class="clear"></div>
+                                    <div class="others display-none">
+                                        <a href="">石药</a>
+                                        <a href="">太极集团</a>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                            </dd>
+                            <div class="clear"></div>
+                        </dl>
+                        <div class="clear"></div>
+                    </div>
+                    <!-- 检索框结束-->
+                    <!-- 检索出的产品展示开始-->
+                    <div class="hunt-list-box">
+                        <!--三级-->
+
+                        <!--二级-->
+                        <div class="hunt-list-top">
+
+                            <div class="pages"><span>&lt;上一页</span><span>下一页&gt;</span>
+                            </div>
+
+                            <h3>感冒发热</h3>
+                            <div class="goods-total">共<b>17</b>个商品<span>1/1</span></div>
+                        </div>
+                        <!--二级-->
+                        <!--通用名展示结束-->
+                        <ul class="ul-list0">
+                            <!--搜索结果列表开始-->
+                            <!-- <li>
+                                <dl>
+                                    <div style="position:relative">
+                                        <div style="position:absolute;left:0;top:0;z-index:2">
+                                        </div>
+                                        <dt>
+                                            <a href="">
+                                                <img title="999 感冒灵颗粒 10g*9袋" src="../img/ganmao.jpg">
+                                            </a>
+                                        </dt>
+                                        <dd class="title">
+                                            <a href="" class="fortext productName" title="999 感冒灵颗粒 10g*9袋">
+                                                999 感冒灵颗粒 10
+                                            </a>
+                                        </dd>
+                                        <dd class="ms">
+                                            <a href="" title="解热镇痛。用于感冒引起的头痛，发热，鼻塞，流涕，咽痛">
+                                                解热镇痛。用于感冒引起的头痛，
+                                            </a>
+
+                                        </dd>
+                                        <dd class="price-box">
+                                            <span class="kxj">开心人价：</span>
+                                            <span class="priceSign dollor">￥</span>
+                                            <span class="price">13.50</span>
+                                        </dd>
+                                        <dd>
+                                            <div class="btn-box">
+                                                <p class="cart" id="put0" alt="放入购物车"></p>
+                                                <p class="car bottom"  alt="放入购物车"></p>
+                                                <p class="favorite margin0"></p>
+                                            </div>
+                                        </dd>
+                                    </div>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <div style="position:relative">
+                                        <div style="position:absolute;left:0;top:0;z-index:2">
+                                        </div>
+                                        <dt><a href="" t>
+                                                <img title="同仁堂 感冒清热颗粒（无蔗糖） 6g*10袋（效期1911）" src="../img/ganmao2.JPG">
+                                            </a>
+                                        </dt>
+                                        <dd class="title">
+                                            <a href="" class="fortext productName"
+                                                title="同仁堂 感冒清热颗粒（无蔗糖） 6g*10袋（效期1911）">
+                                                同仁堂 感冒清热颗粒（无
+                                            </a>
+                                        </dd>
+                                        <dd class="ms">
+                                            <a href="" title="疏风散寒，解表清热。用于风寒感冒，头痛发热，恶寒身痛，鼻流清涕，咳嗽咽干。">
+                                                疏风散寒，解表清热。用于风寒感
+                                            </a>
+
+                                        </dd>
+                                        <dd class="price-box">
+                                            <span class="kxj">开心人价：</span>
+                                            <span class="priceSign dollor">￥</span>
+                                            <span class="price">12.80</span>
+                                        </dd>
+                                        <dd>
+                                            <div class="btn-box">
+                                                <p class="cart" id="put1" alt="放入购物车"></p>
+                                                <p class="car bottom"  alt="放入购物车"></p>
+                                                <p class="favorite margin0"></p>
+                                            </div>
+                                        </dd>
+                                    </div>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <div style="position:relative">
+                                        <div style="position:absolute;left:0;top:0;z-index:2">
+                                        </div>
+                                        <dt><a href="">
+                                                <img title="克比奇 羚羊角胶囊 0.15g*12粒" src="../img/ganmao3.jpg">
+                                            </a>
+
+                                        </dt>
+
+                                        <dd class="title">
+                                            <a href="" target="_blank" class="fortext productName"
+                                                title="克比奇 羚羊角胶囊 0.15g*12粒">
+                                                克比奇 羚羊角胶囊 0.
+                                            </a>
+                                        </dd>
+
+                                        <dd class="ms"></dd>
+                                        <dd class="price-box">
+                                            <span class="kxj">大药房价：</span>
+                                            <span class="priceSign dollor">￥</span>
+                                            <span class="price">35.00</span>
+                                        </dd>
+                                        <dd>
+                                            <div class="btn-box">
+                                                <p class="cart" id="put16" alt="放入购物车"></p>
+                                                <p class="favorite margin0"></p>
+                                            </div>
+                                        </dd>
+                                    </div>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+
+
+                                    <div style="position:relative">
+                                        <div style="position:absolute;left:0;top:0;z-index:2">
+
+                                        </div>
+                                        <dt><a href="">
+                                                <img title="曼秀雷敦 复方薄荷脑鼻用吸入剂 0.675g" src="../img/ganmao4.jpg">
+
+                                            </a>
+
+                                        </dt>
+
+                                        <dd class="title">
+                                            <a href="" class="fortext productName" title="曼秀雷敦 复方薄荷脑鼻用吸入剂 0.675g">
+                                                曼秀雷敦 复方薄荷脑鼻用
+                                            </a>
+                                        </dd>
+
+                                        <dd class="ms">
+
+                                            <a href="" title="用于感冒引起的鼻塞，气味芳香，具清凉感。其他用途：鼻子通气不适、空气混浊、精神萎靡时可适量使用。">
+                                                用于感冒引起的鼻塞，气味芳香，
+                                            </a>
+
+                                        </dd>
+                                        <dd class="price-box">
+                                            <span class="kxj">开心人价：</span>
+                                            <span class="priceSign dollor">￥</span>
+                                            <span class="price">10.50</span>
+                                        </dd>
+                                        <dd>
+                                            <div class="btn-box">
+                                                <p class="cart" id="put3" alt="放入购物车"></p>
+                                                <p class="favorite margin0"></p>
+
+                                            </div>
+                                        </dd>
+                                    </div>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <div style="position:relative">
+                                        <div style="position:absolute;left:0;top:0;z-index:2">
+                                        </div>
+                                        <dt><a href="" target="_blank">
+                                                <img title="太极 感冒清热颗粒 12g*9袋 " src="../img/ganmao5.JPG">
+
+                                            </a>
+
+                                        </dt>
+
+                                        <dd class="title">
+                                            <a href="" class="fortext productName" title="太极 感冒清热颗粒 12g*9袋 ">
+                                                太极 感冒清热颗粒 12
+                                            </a>
+                                        </dd>
+
+                                        <dd class="ms">
+
+                                            <a href="" title="疏风散寒，解表清热。用于风寒感冒，头痛发热，恶寒身痛，鼻流清涕，咳嗽咽干。">
+                                                疏风散寒，解表清热。用于风寒感
+                                            </a>
+
+                                        </dd>
+                                        <dd class="price-box">
+                                            <span class="kxj">开心人价：</span>
+                                            <span class="priceSign dollor">￥</span>
+                                            <span class="price">13.80</span>
+                                        </dd>
+                                        <dd>
+                                            <div class="btn-box">
+                                                <p class="cart" id="put4" alt="放入购物车"></p>
+                                                <p class="favorite margin0"></p>
+
+                                            </div>
+                                        </dd>
+                                    </div>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <div style="position:relative">
+                                        <div style="position:absolute;left:0;top:0;z-index:2">
+                                        </div>
+                                        <dt><a href="" target="_blank">
+                                                <img title="太极 感冒清热颗粒 12g*9袋 " src="../img/ganmao6.JPG">
+                                            </a>
+                                        </dt>
+                                        <dd class="title">
+                                            <a href="" target="_blank" class="fortext productName"
+                                                title="太极 感冒清热颗粒 12g*9袋 ">
+                                                太极 感冒清热颗粒 12
+                                            </a>
+                                        </dd>
+                                        <dd class="ms">
+                                            <a href="" target="_blank" title="疏风散寒，解表清热。用于风寒感冒，头痛发热，恶寒身痛，鼻流清涕，咳嗽咽干。">
+                                                疏风散寒，解表清热。用于风寒感
+                                            </a>
+                                        </dd>
+                                        <dd class="price-box">
+                                            <span class="kxj">开心人价：</span>
+                                            <span class="priceSign dollor">￥</span>
+                                            <span class="price">15.00</span>
+                                        </dd>
+                                        <dd>
+                                            <div class="btn-box">
+                                                <p class="cart" id="put5" alt="放入购物车"></p>
+                                                <p class="favorite margin0"></p>
+                                            </div>
+                                        </dd>
+                                    </div>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <div style="position:relative">
+                                        <div style="position:absolute;left:0;top:0;z-index:2">
+                                        </div>
+                                        <dt><a href="/product/7371.html" target="_blank">
+                                                <img title="安药  午时茶颗粒 6g*20袋" src="../img/ganmao7.jpg">
+                                            </a>
+                                        </dt>
+                                        <dd class="title">
+                                            <a href="/product/7371.html" target="_blank" class="fortext productName"
+                                                title="安药  午时茶颗粒 6g*20袋">
+                                                安药 午时茶颗粒 6g
+                                            </a>
+                                        </dd>
+
+                                        <dd class="ms">
+
+                                            <a href="/product/7371.html" target="_blank"
+                                                title="祛风解表，化湿和中。用于外感风寒、内伤食积证，症见恶寒发热、头痛身楚、胸脘满闷、恶心呕吐、腹痛腹泻。">
+                                                祛风解表，化湿和中。用于外感风
+                                            </a>
+                                        </dd>
+                                        <dd class="price-box">
+                                            <span class="kxj">开心人价：</span>
+                                            <span class="priceSign dollor">￥</span>
+                                            <span class="price">15.80</span>
+                                        </dd>
+                                        <dd>
+                                            <div class="btn-box">
+                                                <p class="cart" id="put6" alt="放入购物车"></p>
+                                                <p class="favorite margin0"></p>
+
+                                            </div>
+                                        </dd>
+                                    </div>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+
+
+                                    <div style="position:relative">
+                                        <div style="position:absolute;left:0;top:0;z-index:2">
+
+                                        </div>
+                                        <dt>
+                                            <a href="" target="_blank">
+
+                                                <img title="宁宁 正柴胡饮颗粒 10g*6袋" src="../img/ganmao8.png">
+
+                                            </a>
+
+                                        </dt>
+
+                                        <dd class="title">
+                                            <a href="" class="fortext productName" title="宁宁 正柴胡饮颗粒 10g*6袋">
+                                                宁宁 正柴胡饮颗粒 10
+                                            </a>
+                                        </dd>
+                                        <dd class="ms">
+
+                                            <a href="" target="_blank" title="表散风寒，解热止痛。用于外感风寒及流行性感冒初起等。">
+                                                表散风寒，解热止痛。用于外感风
+                                            </a>
+                                        </dd>
+                                        <dd class="price-box">
+                                            <span class="kxj">开心人价：</span>
+                                            <span class="priceSign dollor">￥</span>
+                                            <span class="price">13.80</span>
+                                        </dd>
+                                        <dd>
+                                            <div class="btn-box">
+                                                <p class="cart" id="put7" alt="放入购物车"></p>
+                                                <p class="favorite margin0"></p>
+                                            </div>
+                                        </dd>
+                                    </div>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <div style="position:relative">
+                                        <div style="position:absolute;left:0;top:0;z-index:2">
+                                        </div>
+                                        <dt><a href="">
+                                                <img title="欧意 感冒清热软胶囊 0.65g*24粒 " src="../img/ganmao9.jpg">
+                                            </a>
+                                        </dt>
+                                        <dd class="title">
+                                            <a href="" class="fortext productName" title="欧意 感冒清热软胶囊 0.65g*24粒 ">
+                                                欧意 感冒清热软胶囊 0
+                                            </a>
+                                        </dd>
+
+                                        <dd class="ms">
+
+                                            <a href="" title="疏风散寒，解表清热。用于风寒感冒，头痛发热，恶寒身痛，鼻流清涕，咳嗽咽干。">
+                                                疏风散寒，解表清热。用于风寒感
+                                            </a>
+
+                                        </dd>
+                                        <dd class="price-box">
+                                            <span class="kxj">开心人价：</span>
+                                            <span class="priceSign dollor">￥</span>
+                                            <span class="price">15.80</span>
+                                        </dd>
+                                        <dd>
+                                            <div class="btn-box">
+                                                <p class="cart" id="put8" alt="放入购物车"></p>
+                                                <p class="favorite margin0"></p>
+                                            </div>
+                                        </dd>
+                                    </div>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <div style="position:relative">
+                                        <div style="position:absolute;left:0;top:0;z-index:2">
+
+                                        </div>
+                                        <dt><a href="">
+                                                <img title="桑海 维C银翘片18片（效期1909，仅6盒多拍不发）" src="../img/ganmao.jpg">
+                                            </a>
+                                        </dt>
+                                        <dd class="title">
+                                            <a href="" class="fortext productName" title="桑海 维C银翘片18片（效期1909，仅6盒多拍不发）">
+                                                桑海 维C银翘片18片（
+                                            </a>
+                                        </dd>
+                                        <dd class="ms">
+                                            <br>
+                                        </dd>
+                                        <dd class="price-box">
+                                            <span class="kxj">开心人价：</span>
+                                            <span class="priceSign dollor">￥</span>
+                                            <span class="price">0.99</span>
+                                        </dd>
+                                        <dd>
+                                            <div class="btn-box">
+                                                <p class="cart" id="put9" alt="放入购物车"></p>
+                                                <p class="favorite margin0"></p>
+                                            </div>
+                                        </dd>
+                                    </div>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <div style="position:relative">
+                                        <div style="position:absolute;left:0;top:0;z-index:2">
+                                        </div>
+                                        <dt>
+                                            <a href="">
+                                                <img title="可立克 复方氨酚烷胺胶囊20粒" src="../img/ganmao2.JPG">
+                                            </a>
+                                        </dt>
+                                        <dd class="title">
+                                            <a href="" class="fortext productName" title="可立克 复方氨酚烷胺胶囊20粒">
+                                                可立克 复方氨酚烷胺胶囊
+                                            </a>
+                                        </dd>
+                                        <dd class="ms">
+                                            <a href="" title="用于缓解普通感冒及流行性感冒引起的发热、头痛、鼻塞、咽痛等症状，也可用于流行性感冒的预防和治疗。">
+                                                用于缓解普通感冒及流行性感冒引
+                                            </a>
+
+                                        </dd>
+                                        <dd class="price-box">
+                                            <span class="kxj">开心人价：</span>
+                                            <span class="priceSign dollor">￥</span>
+                                            <span class="price">16.60</span>
+                                        </dd>
+                                        <dd>
+                                            <div class="btn-box">
+                                                <p class="cart" id="put10" alt="放入购物车"></p>
+                                                <p class="favorite margin0"></p>
+                                            </div>
+                                        </dd>
+                                    </div>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <div style="position:relative">
+                                        <div style="position:absolute;left:0;top:0;z-index:2">
+                                        </div>
+                                        <dt>
+                                            <a href="">
+                                                <img title="福森 双黄连口服液 10ml*6支" src="../img/ganmao3.jpg">
+                                            </a>
+                                        </dt>
+                                        <dd class="title">
+                                            <a href="" class="fortext productName" title="福森 双黄连口服液 10ml*6支">
+                                                福森 双黄连口服液 10
+                                            </a>
+                                        </dd>
+                                        <dd class="ms">
+                                            <a href="" target="_blank" title="疏风解表，清热解毒。用于外感风热所致的感冒，症见发热、咳嗽、咽痛。">
+                                                疏风解表，清热解毒。用于外感风
+                                            </a>
+                                        </dd>
+                                        <dd class="price-box">
+                                            <span class="kxj">开心人价：</span>
+                                            <span class="priceSign dollor">￥</span>
+                                            <span class="price">18.00</span>
+                                        </dd>
+                                        <dd>
+                                            <div class="btn-box">
+                                                <p class="cart" id="put11" alt="放入购物车"></p>
+                                                <p class="favorite margin0"></p>
+
+                                            </div>
+                                        </dd>
+                                    </div>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <div style="position:relative">
+                                        <div style="position:absolute;left:0;top:0;z-index:2">
+                                        </div>
+                                        <dt>
+                                            <a href="">
+                                                <img title="力克舒 复方银翘氨敏胶囊 24粒（效期1911）" src="../img/ganmao5.JPG">
+                                            </a>
+                                        </dt>
+                                        <dd class="title">
+                                            <a href="" class="fortext productName" title="力克舒 复方银翘氨敏胶囊 24粒（效期1911）">
+                                                力克舒 复方银翘氨敏胶囊
+                                            </a>
+                                        </dd>
+                                        <dd class="ms">
+                                            <a href="" title="适用于缓解普通感冒及流行性感冒引起的发热、头痛、四肢酸痛、打喷嚏、流鼻涕、鼻塞、咽痛、咳嗽口干等症状。">
+                                                适用于缓解普通感冒及流行性感冒
+                                            </a>
+
+                                        </dd>
+                                        <dd class="price-box">
+                                            <span class="kxj">开心人价：</span>
+                                            <span class="priceSign dollor">￥</span>
+                                            <span class="price">9.80</span>
+                                        </dd>
+                                        <dd>
+                                            <div class="btn-box">
+                                                <p class="cart" id="put12" alt="放入购物车"></p>
+                                                <p class="favorite margin0"></p>
+                                            </div>
+                                        </dd>
+                                    </div>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <div style="position:relative">
+                                        <div style="position:absolute;left:0;top:0;z-index:2">
+                                        </div>
+                                        <dt><a href="">
+                                                <img title="可立克 复方氨酚烷胺胶囊20粒*3盒" src="../img/ganmao6.JPG">
+                                            </a>
+                                        </dt>
+                                        <dd class="title">
+                                            <a href="" class="fortext productName" title="可立克 复方氨酚烷胺胶囊20粒*3盒">
+                                                可立克 复方氨酚烷胺胶囊
+                                            </a>
+                                        </dd>
+                                        <dd class="ms">
+                                            <a href="" title="用于缓解普通感冒及流行性感冒引起的发热、头痛、鼻塞、咽痛等症状，也可用于流行性感冒的预防和治疗。">
+                                                用于缓解普通感冒及流行性感冒引
+                                            </a>
+                                        </dd>
+                                        <dd class="price-box">
+                                            <span class="kxj">开心人价：</span>
+                                            <span class="priceSign dollor">￥</span>
+                                            <span class="price">46.00</span>
+                                        </dd>
+                                        <dd>
+                                            <div class="btn-box">
+                                                <p class="cart" id="put13" alt="放入购物车"></p>
+                                                <p class="favorite margin0"></p>
+                                            </div>
+                                        </dd>
+                                    </div>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <div style="position:relative">
+                                        <div style="position:absolute;left:0;top:0;z-index:2">
+                                        </div>
+                                        <dt><a href="">
+                                                <img title="神奇 枇杷止咳胶囊 0.25g*24粒/盒（仅7盒多拍不发） " src="../img/ganmao7.jpg">
+                                            </a>
+                                        </dt>
+                                        <dd class="title">
+                                            <a href="" class="fortext productName"
+                                                title="神奇 枇杷止咳胶囊 0.25g*24粒/盒（仅7盒多拍不发） ">
+                                                神奇 枇杷止咳胶囊 0.
+                                            </a>
+                                        </dd>
+                                        <dd class="ms">
+                                            <br>
+                                        </dd>
+                                        <dd class="price-box">
+                                            <span class="kxj">开心人价：</span>
+                                            <span class="priceSign dollor">￥</span>
+                                            <span class="price">12.90</span>
+                                        </dd>
+                                        <dd>
+                                            <div class="btn-box">
+                                                <p class="cart" id="put14" alt="放入购物车"></p>
+                                                <p class="favorite margin0"></p>
+
+                                            </div>
+                                        </dd>
+                                    </div>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <div style="position:relative">
+                                        <div style="position:absolute;left:0;top:0;z-index:2">
+                                        </div>
+                                        <dt>
+                                            <a href="">
+                                                <img title="金诃 安儿宁颗粒 3g*12袋" src="../img/ganmao8.png">
+                                            </a>
+                                        </dt>
+                                        <dd class="title">
+                                            <a href="" class="fortext productName" title="金诃 安儿宁颗粒 3g*12袋">
+                                                金诃 安儿宁颗粒 3g*
+                                            </a>
+                                        </dd>
+                                        <dd class="ms"></dd>
+                                        <dd class="price-box">
+                                            <span class="kxj">大药房价：</span>
+                                            <span class="priceSign dollor">￥</span>
+                                            <span class="price">32.00</span>
+                                        </dd>
+                                        <dd>
+                                            <div class="btn-box">
+                                                <p class="cart" id="put16" alt="放入购物车"></p>
+                                                <p class="favorite margin0"></p>
+                                            </div>
+                                        </dd>
+                                    </div>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <div style="position:relative">
+                                        <div style="position:absolute;left:0;top:0;z-index:2">
+                                        </div>
+                                        <dt><a href="">
+                                                <img title="太极 复方板蓝根颗粒 15g*25袋" src="../img/ganmao9.jpg">
+                                            </a>
+                                        </dt>
+                                        <dd class="title">
+                                            <a href="" class="fortext productName" title="太极 复方板蓝根颗粒 15g*25袋">
+                                                太极 复方板蓝根颗粒 1
+                                            </a>
+                                        </dd>
+                                        <dd class="ms">
+                                            <a href="" title="清热解毒，凉血。用于风热感冒，咽喉肿痛">
+                                                清热解毒，凉血。用于风热感冒，
+                                            </a>
+                                        </dd>
+                                        <dd class="price-box">
+                                            <span class="kxj">开心人价：</span>
+                                            <span class="priceSign dollor">￥</span>
+                                            <span class="price">15.00</span>
+                                        </dd>
+                                        <dd>
+                                            <div class="btn-box">
+                                                <p class="cart" id="put16" alt="放入购物车"></p>
+                                                <p class="favorite margin0"></p>
+                                            </div>
+                                        </dd>
+                                    </div>
+                                </dl>
+                            </li> -->
+                        </ul>
+                        <span class="page" id="page">
+                            <!-- <span class="active">1</span>
+                                <span>2</span>
+                                <span>3</span> -->
+                        </span>
+                        <div class="clear"></div>
+                        <!--翻页开始-->
+
+                        <!--翻页结束-->
+                    </div>
+                    <!--检索出的产品展示结束-->
+                </div>
+                <!-- 检索结束-->
+                <!--搜索框开始-->
+                <div class="search-box">
+                    <input id="keyWords" value="请输入汇仁肾宝片或hrsbp" style="color: rgb(153, 153, 153);">
+                    <span class="ss-btn" id="searchbuttons"></span>
+                </div>
+                <!--搜索框结束-->
+            </div>
+            <!-- 右侧栏目结束-->
+            <div class="clear"></div>
+        </div>
+    </div>
+
+
+    <!--页面底部开始-->
+    <div class="footer-box">
+        <div class="footer-nav">
+            <div class="contact-cont">
+                <a title="开心人介绍" href="">开心人介绍</a> |
+                <a title="城市分布" href="">城市分布</a> |
+                <a title="联系我们" href="">联系我们</a> |
+                <a title="加入我们" href="">加入我们</a> |
+                <a title="网站资质" href="">网站资质</a> |
+                <a title="友情链接" href="">友情链接</a> |
+                <a href="">网站地图</a> |
+                <a title="商品地图" href="">商品地图</a> |
+                <a href="#">在线客服</a> | |
+                <a href="" rel="nofollow">免费注册</a> |
+                <a href="" rel="nofollow">企业目录</a>
+                <p>按字母索引商品：
+                    <a href="">A</a>
+                    <a href="">B</a>
+                    <a href="">C</a>
+                    <a href="">D</a>
+                    <a href="">E</a>
+                    <a href="">F</a>
+                    <a href="">G</a>
+                    <a href="">H</a>
+                    <a href="">I</a>
+                    <a href="">J</a>
+                    <a href="">K</a>
+                    <a href="">L</a>
+                    <a href="">M</a>
+                    <a href="">N</a>
+                    <a href="">O</a>
+                    <a href="">P</a>
+                    <a href="">Q</a>
+                    <a href="">R</a>
+                    <a href="">S</a>
+                    <a href="">T</a>
+                    <a href="">U</a>
+                    <a href="">V</a>
+                    <a href="">W</a>
+                    <a href="">X</a>
+                    <a href="">Y</a>
+                    <a href="">Z</a>
+                </p>
+            </div>
+        </div>
+        <!--证书部分开始-->
+        <div class="licence-box" id="licence-box">
+            <p>
+                <a title="互联网药品交易服务资格证书" href="">互联网药品交易服务资格证书</a>
+                <a title="互联网药品交易服务资格证书" href="">互联网药品信息服务资格证书</a>
+                <a title="增值电信业务经营许可证" href="">增值电信业务经营许可证</a>
+                <a title="药品经营许可证" href="">药品经营许可证</a>
+                <a title="医疗器械经营企业许可证" href="">医疗器械经营企业许可证</a>
+                <a title="互联网药品交易服务资格证书" href="">食品卫生许可证</a>
+                <a title="公司营业执照" href="">公司营业执照</a>
+                <a title="GSP认证证书" href="">GSP认证证书</a>
+            </p>
+        </div>
+        <!--证书部分结束-->
+        <!--底部logo开始-->
+        <ul class="bottom-ico" id="bottom-ico">
+            <li>
+                <a href="" title="中国银联-中银E付">
+                    <span class="e-logo-img1"></span>
+                </a>
+            </li>
+            <li>
+                <a href="#" title="经营性网站备案信息">
+                    <span class="e-logo-img2"></span>
+                </a>
+            </li>
+            <li>
+                <a href=" " title="网络110报警服务">
+                    <span class="e-logo-img3"></span>
+                </a>
+            </li>
+            <li>
+                <a title="网络110报警服务" href=" ">
+                    <span class="e-logo-img4"></span>
+                </a>
+            </li>
+            <li>
+                <a href="" title="健康速递隐私配送">
+                    <span class="e-logo-img5"></span>
+                </a>
+            </li>
+            <li>
+                <a title="健康速递隐私配送" href="">
+                    <span class="e-logo-img6"></span>
+                </a>
+            </li>
+            <li>
+                <a href="" target="_blank" title="诚信品牌100强">
+                    <span class="e-logo-img7"></span>
+                </a>
+            </li>
+            <div class="clear"></div>
+        </ul>
+        <!--底部logo结束-->
+        <div class="copy-box">
+            <p>
+                Copyright@2010-2015 <a href="" target="_blank">开心人网上药店</a>(www.360kxr.com)　赣ICP证B2--20090025-2号<a
+                    target="_blank" href="" style="margin-left:8px;"><img src="" style="vertical-align: middle;"><span
+                        style="color:#939393;">赣公网安备 36011102000116号</span></a>
+            </p>
+        </div>
+    </div>
+    <!--页面底部结束-->
+    <a id="returnTop" href=""></a>
+</body>
+
+</html>

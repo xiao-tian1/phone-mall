@@ -1,0 +1,24 @@
+//openfile.meizu.com/group1/M00/06/DF/Cgbj0FwRr8uAZTsVAAhGUe23fjs268.png@480x480.jpg,魅族 X8 高透保护膜,19
+//openfile.meizu.com/group1/M00/06/DF/Cgbj0FwRr7qAE0YNAAmBMjuVfOU842.png@480x480.jpg,魅族 16X 高透保护膜,19
+//openfile.meizu.com/group1/M00/06/BD/Cgbj0FvJjK6AAcw8AAPKzUsctEA769.png@480x480.jpg,魅族移动电源3,79
+//openfile.meizu.com/group1/M00/06/16/Cgbj0Ft7iV6AQANcAAL00J0tbyQ152.png@480x480.jpg,魅族 16th Plus 亲肤保护壳,29
+//openfile.meizu.com/group1/M00/06/DF/Cgbj0FwRr7qARwTRAAXzl3eAweE919.png@480x480.jpg,魅族 16th Plus 高透保护膜,19
+//openfile.meizu.com/group1/M00/06/F9/Cgbj0VwkSZKATjTlAAajD8PGNhs208.png@480x480.jpg,魅族 16th 高透保护膜,19
+//openfile.meizu.com/group1/M00/07/1C/Cgbj0Vyi-aOAT8yaAAW5mQNdc_c215.png@480x480.jpg,魅族 Note9 壳膜套装,39
+//openfile.meizu.com/group1/M00/06/E1/Cgbj0Vv8um2AVBoyAAdHMP5_gzM044.png@480x480.jpg,魅族 Note8 亲肤保护壳,29
+//openfile.meizu.com/group1/M00/06/E1/Cgbj0Vv8upiAbtRBAAcE-otAJt8537.png@480x480.jpg,魅族 X8 亲肤保护壳,29
+//openfile.meizu.com/group1/M00/06/EE/Cgbj0VwRr8KAC2JKAAl05Yq0esM119.png@480x480.jpg,魅族 Note8 高透保护膜,19
+//storeimg.meizu.com/product/1458617159-29477.png@480x480.jpg,魅族 Micro USB 数据线,29
+//openfile.meizu.com/group1/M00/00/1F/Cix_s1ef_G2AYNlYAAIxGo35tB4079.png@480x480.jpg,魅族 Type-C 金属数据线,39
+//storeimg.meizu.com/product/1467363284-86213.png@480x480.jpg,魅族 Micro USB 金属数据线,29
+//openfile.meizu.com/group1/M00/06/EE/Cgbj0VwRr8OAK0BlAApiHfXlhQA575.png@480x480.jpg,魅族 V8 高配版高透保护膜,19
+//openfile.meizu.com/group1/M00/06/C4/Cgbj0Vu7BuOAOYWWAAfB94yQC34186.png@480x480.jpg,魅族 16X 亲肤保护壳,29
+//openfile.meizu.com/group1/M00/04/15/Cgbj0VrcXw2AL0tBAApTh_xwKKk709.png@480x480.jpg,魅族无线充电器,99
+//storeimg.meizu.com/product/1467170145-52479.png@480x480.jpg,快充电源适配器（UP0830S）,89
+//openfile.meizu.com/group1/M00/01/3A/CnQOjVjJ-m2AQ1LxAAE3Ze4d72s837.png@480x480.jpg,魅族 Mini 线控自拍杆,59
+//openfile.meizu.com/group1/M00/01/0B/Cix_s1iW3W2AQAzZAAJUz1tTYF4022.png@480x480.jpg,魅族蓝牙自拍杆,69
+//openfile.meizu.com/group1/M00/06/DF/Cgbj0FwRr8OAG5T_AAjO-o9qvxg580.png@480x480.jpg,魅族 V8 标配版高透保护膜,19
+//openfile.meizu.com/group1/M00/03/2F/Cgbj0FqYqxqAcZ-nAAGaLqkN71s729.png@480x480.jpg,魅族 Type-C 2.0数据线,49
+//openfile.meizu.com/group1/M00/01/81/Cgbj0FkmeZaAYy1oAAGW2D1yGJ8034.png@480x480.jpg,魅族缤纷 Mini 自拍杆,49
+//openfile.meizu.com/group1/M00/01/0C/CnQOjViX1x-AdYHaAAKUWbEvTpo772.png@480x480.jpg,魅族熊猫磁吸出风口支架,49
+//openfile.meizu.com/group1/M00/00/E4/CnQOjVhrElKAP2hjAAC-EVHlqVA415.jpg@480x480.jpg,魅族 Micro USB 熊猫数据线,49
