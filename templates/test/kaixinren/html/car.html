@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/car.css">
+    <script src="../js/jquery-1.10.1.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/car.js"></script>
+</head>
+
+<body>
+    <!--头部信息开始-->
+    <div class="gw-top">
+        <div class="gw-top-cont">
+            <span id="Span1" class="topright">
+                <a href="">
+                    <img src="../img/mail.gif"></a>(<a href=""><span id="mesCount">0</span></a>)
+                <a href="" title="我的账户">我的账户</a>|
+                <a href="" title="收藏本站">收藏本站</a> |
+                <a href=" " title="代购预定">代购预定</a>|
+                <a href="" title="帮助中心">帮助中心</a> |
+                <img class="kefuIco" src="../img/gw-online.jpg" title="在线客服">
+            </span>
+            <span id="logoName" class="topleft">欢迎加入开心人！
+                <a href="" class="gb-dengl">请登录</a>
+                <a href="" class="gb-zcsjf">免费注册</a>
+            </span>
+        </div>
+    </div>
+    <!--头部信息结束-->
+    <!--网站logo部分开始-->
+    <div class="gw-logo-box">
+        <div class="gw-logo-cont">
+            <p>
+                <span class="step1-bg active">1我的购物车</span>
+                <span class="step2-bg">2填写订单核对信息</span>
+                <span class="step3-bg"> 3成功提交订单</span>
+            </p>
+            <a href="/"><img src="../img/gw-logo.jpg"></a>
+        </div>
+    </div>
+    <!--网站logo部分结束-->
+    <!--主体部分开始-->
+    <div class="gw-main-box">
+        <h1>我的购物车</h1>
+        <!--购物清单开始-->
+        <div class="message-common oreder-message ">
+            <div class="round-top-img">
+            </div>
+            <div class="message-common-cont listing-message-cont oreder-message-cont">
+                <h3>购物清单：</h3>
+                <div id="concar">
+                    <table cellspacing="0" cellpadding="0" border="0" class="listing-tb">
+                        <tbody>
+                            <tr class="list-title">
+                                <th class="first-th" width="100px">商品编号</th>
+                                <th>商品名称</th>
+                                <th width="90">开心价</th>
+                                <th width="90">数量</th>
+                                <th width="90">小计</th>
+                                <th width="90">操作</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table cellspacing="0" cellpadding="0" border="0" class="listing-tb listing-td">
+                        <tbody>
+                            <!-- <tr>
+                                <td class="first-th">B01002109x</td>
+                                <td style="text-align:left;">
+                                    <a href="">派瑞松 曲安奈德益康唑乳膏15g</a>
+                                    <span class="redColor">(特例品)</span>
+                                </td>
+                                <td class="priceSign" width="90">￥19.90</td>
+                                <td width="90">
+                                    <span class="minus-ico"></span>
+                                    <input type="text" value="1" id="num_8076">
+                                    <span class="plus-ico"></span>
+                                </td>
+                                <td class="priceSign" width="90">￥19.90</td>
+                                <td width="90"><a class="del-cancle" href="">删除</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="first-th">B01005345x</td>
+                                <td style="text-align:left;">
+                                    <a href="">班赛 过氧苯甲酰凝胶5%15g（效期1907，仅1盒多拍不发）</a>
+                                    <span class="redColor">(特例品)</span></td>
+                                <td class="priceSign" width="90">￥26.80</td>
+                                <td width="90">
+                                    <span class="minus-ico"></span>
+                                    <input type="text" value="1" id="num_15643">
+                                    <span class="plus-ico"></span>
+                                </td>
+                                <td class="priceSign" width="90">￥26.80</td>
+                                <td width="90"><a class="del-cancle" href="">删除</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="first-th">B01002609x</td>
+                                <td style="text-align:left;">
+                                    <a href="">曼秀雷敦 复方薄荷脑软膏28g</a>
+                                    <span class="redColor">(特例品)</span>
+                                </td>
+                                <td class="priceSign" width="90">￥23.50</td>
+                                <td width="90">
+                                    <span class="minus-ico"></span>
+                                    <input type="text" value="1" id="num_13244">
+                                    <span class="plus-ico"></span>
+                                </td>
+                                <td class="priceSign" width="90">￥23.50</td>
+                                <td width="90"><a class="del-cancle" href="">删除</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="first-th">B01001677x</td>
+                                <td style="text-align:left;">
+                                    <a href="">水仙牌 风油精 9ml</a>
+                                    <span class="redColor">(特例品)</span>
+                                </td>
+                                <td class="priceSign" width="90">￥6.20</td>
+                                <td width="90">
+                                    <span class="minus-ico"></span>
+                                    <input type="text" value="1" id="num_8767">
+                                    <span class="plus-ico"></span>
+                                </td>
+                                <td class="priceSign" width="90">￥6.20</td>
+                                <td width="90"><a class="del-cancle" href="">删除</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="first-th">N01390020</td>
+                                <td style="text-align:left;">
+                                    <a href="">达克宁 盐酸特比萘芬喷雾剂
+                                        30ml</a>
+                                </td>
+                                <td class="priceSign" width="90">￥30.80</td>
+                                <td width="90">
+                                    <span class="minus-ico"></span>
+                                    <input type="text" value="1" id="num_28319">
+                                    <span class="plus-ico"></span>
+                                </td>
+                                <td class="priceSign" width="90">￥30.80</td>
+                                <td width="90"><a class="del-cancle" href="">删除</a>
+                                </td>
+                            </tr> -->
+                            <div class="clear"></div>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="msgshow" class="msgshow" style="display: none;">
+                </div>
+                <div class="order-text">
+
+                    <div class="order-sum-new">
+                        <p>
+                            <span style="color: #6E6E6E; float: left;">商品总重量：<span id="showproweight"
+                                    class="newnum-red">0g</span></span>
+                            <span class="newpronum"><span class="num-red" id="productcount">0</span>件商品</span>
+                            商品金额总计：<span class="newnum-red"><i id="showptsp">￥0.00</i></span>
+                        </p>
+                        <p>
+                            满减：<span class="newnum-red" id="mjGiftFee">-￥0</span></p>
+                        <p>
+                            总计（不含运费）：<span class="newnum-red" id="showprototal">￥0.00</span>
+                        </p>
+                        
+                    </div>
+
+                    <div class="clear">
+                    </div>
+                </div>
+                <div class="order-button">
+                    <span id="clearshopcar"><b></b>清空购物车</span>
+                    <span style="line-height: 35px;">
+                        <a style="text-decoration: none;color: Red;" href="">凑单享免邮！</a>
+                    </span>
+                    <input type="button" style="margin-left: 230px;" class="continue-btn" value="">
+                    <input type="button" class="submit-btn" value="">
+                    <div class="clear">
+                    </div>
+                </div>
+            </div>
+            <div class="round-bottom-img">
+            </div>
+        </div>
+        <!--购物清单结束-->
+    </div>
+</body>
+
+</html>

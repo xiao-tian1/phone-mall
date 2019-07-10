@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div>
+        <form method="post" enctype="multipart/form-data" action="{% url 'app:register' %}">
+            <input type="text" name="username">
+            <input type="password" name="password">
+            <input type="password" name="repassword">
+            <input type="email" name="email">
+            <input type="file" name="icon">
+            <input type="submit">
+        </form>
+    </div>
+</body>
+</html>
